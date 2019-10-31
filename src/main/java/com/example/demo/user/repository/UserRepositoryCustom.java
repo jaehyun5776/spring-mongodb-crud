@@ -11,4 +11,5 @@ public interface UserRepositoryCustom {
     List<User> getUserByAddress(String address);
     Page<User> findPageableAll(Pageable pageable);
     List<User> getUserByQueryDSL();
+
 }
