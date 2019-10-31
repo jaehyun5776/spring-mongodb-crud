@@ -47,6 +47,7 @@ public class UserRepositoryImpl extends QuerydslRepositorySupport implements Use
 
     @Override
     public List<User> getUserByQueryDSL() {
+
         return from(user).where(user.name.eq("test12")).fetch();
     }
 }
