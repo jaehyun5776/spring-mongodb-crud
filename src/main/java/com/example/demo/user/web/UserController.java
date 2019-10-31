@@ -53,6 +53,7 @@ public class UserController {
     @RequestMapping(value = "/getList/page/{page}/size/{size}", method = RequestMethod.GET)
     public String getListPageable(@PathVariable("page") int page,
                                   @PathVariable("size") int size){
+
         Pageable pageable = PageRequest.of(page - 1, size);
 
         log.debug("[getListPageable] "+userRepository.findPageableAll(pageable).getContent());
