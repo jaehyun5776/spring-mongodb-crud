@@ -1,4 +1,4 @@
-package com.example.demo.user.domain;
+package com.golfzon.test.user.domain;
 
 
 import lombok.Data;

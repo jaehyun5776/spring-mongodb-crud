@@ -1,6 +1,6 @@
-package com.example.demo.user.domain.dsl;
+package com.golfzon.test.user.domain.dsl;
 
-import com.example.demo.user.domain.User;
+import com.golfzon.test.user.domain.User;
 import com.querydsl.core.types.Path;
 import com.querydsl.core.types.PathMetadata;
 import com.querydsl.core.types.dsl.EntityPathBase;
@@ -25,7 +25,7 @@ public class QUser extends EntityPathBase<User> {
 
     public static final QUser user = new QUser("user");
 
-    public final com.example.demo.user.domain.dsl.QObjectId _id;
+    public final QObjectId _id;
 
     public final StringPath address = createString("address");
 
@@ -51,7 +51,7 @@ public class QUser extends EntityPathBase<User> {
 
     public QUser(Class<? extends User> type, PathMetadata metadata, PathInits inits) {
         super(type, metadata, inits);
-        this._id = inits.isInitialized("_id") ? new com.example.demo.user.domain.dsl.QObjectId(forProperty("_id")) : null;
+        this._id = inits.isInitialized("_id") ? new QObjectId(forProperty("_id")) : null;
     }
 
 }

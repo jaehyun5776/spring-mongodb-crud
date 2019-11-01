@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.golfzon.test;
 
-import com.example.demo.user.repository.UserRepository;
+import com.golfzon.test.user.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

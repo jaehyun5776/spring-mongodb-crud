@@ -1,4 +1,4 @@
-package com.example.demo.user.domain.dsl;
+package com.golfzon.test.user.domain.dsl;
 
 import com.querydsl.core.types.Path;
 import com.querydsl.core.types.PathMetadata;

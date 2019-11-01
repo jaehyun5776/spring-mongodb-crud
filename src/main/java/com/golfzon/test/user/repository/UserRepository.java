@@ -1,6 +1,6 @@
-package com.example.demo.user.repository;
+package com.golfzon.test.user.repository;
 
-import com.example.demo.user.domain.User;
+import com.golfzon.test.user.domain.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.stereotype.Repository;

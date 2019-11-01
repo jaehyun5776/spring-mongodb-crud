@@ -1,7 +1,7 @@
-package com.example.demo.user.web;
+package com.golfzon.test.user.web;
 
-import com.example.demo.user.domain.User;
-import com.example.demo.user.repository.UserRepository;
+import com.golfzon.test.user.domain.User;
+import com.golfzon.test.user.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;

@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.golfzon.test.config;
 
 /*
 @Configuration

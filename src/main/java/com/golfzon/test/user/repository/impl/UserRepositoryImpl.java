@@ -1,7 +1,7 @@
-package com.example.demo.user.repository.impl;
+package com.golfzon.test.user.repository.impl;
 
-import com.example.demo.user.domain.User;
-import com.example.demo.user.repository.UserRepositoryCustom;
+import com.golfzon.test.user.domain.User;
+import com.golfzon.test.user.repository.UserRepositoryCustom;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -14,7 +14,7 @@ import org.springframework.data.repository.support.PageableExecutionUtils;
 
 import java.util.List;
 
-import static com.example.demo.user.domain.dsl.QUser.user;
+import static com.golfzon.test.user.domain.dsl.QUser.user;
 
 public class UserRepositoryImpl extends QuerydslRepositorySupport implements UserRepositoryCustom {
 
