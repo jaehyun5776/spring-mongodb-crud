@@ -1,6 +1,5 @@
-package com.golfzon.test.user.domain.dsl;
+package com.golfzon.test.user.domain;
 
-import com.golfzon.test.user.domain.User;
 import com.querydsl.core.types.Path;
 import com.querydsl.core.types.PathMetadata;
 import com.querydsl.core.types.dsl.EntityPathBase;
